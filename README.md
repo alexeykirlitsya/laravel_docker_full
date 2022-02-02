@@ -16,6 +16,11 @@ docker-compose run --rm composer update
 docker-compose run --rm artisan key:generate
 docker-compose run --rm artisan migrate
 
-docker-compose run --rm npm run install
+docker-compose run --rm npm install
 docker-compose run --rm npm run dev
+```
+
+```shell
+# original
+link: https://github.com/aschmelyun/docker-compose-laravel
 ```
